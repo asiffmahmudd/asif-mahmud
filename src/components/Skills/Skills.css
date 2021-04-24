@@ -1,0 +1,14 @@
+.skills{
+    background: #34343b;
+}
+
+.skills .cstm-brdr{
+    width: 90px;
+}
+
+@media (max-width: 425px){
+    .col-xs-6{
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }   
+}

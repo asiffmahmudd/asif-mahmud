@@ -27,3 +27,9 @@
     transform: scaleX(1);
     transform-origin: left;
 }
+
+.cstm-brdr{
+    background: goldenrod;
+    display: block;
+    height: 3px;
+}
