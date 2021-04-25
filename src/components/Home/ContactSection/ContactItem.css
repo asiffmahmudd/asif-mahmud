@@ -1,0 +1,16 @@
+.contact-item .item-container{
+    background-color: #34343b;
+}
+
+.contact-item span{
+    font-size: 20px;
+}
+
+.contact-item a:hover{
+    text-decoration: none;
+}
+
+.contact-item a:hover .cstm-underline::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}

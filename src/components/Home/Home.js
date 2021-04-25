@@ -1,8 +1,10 @@
 import React from 'react';
-import Header from '../Header/Header';
-import Banner from '../Banner/Banner';
+import Header from '../Shared/Header/Header';
+import Banner from './Banner/Banner';
+import ContactSection from './ContactSection/ContactSection';
 import './Home.css'
-import Skills from '../Skills/Skills';
+import RecentWorks from './RecentWorks/RecentWorks';
+import Skills from './Skills/Skills';
 
 const Home = () => {
     return (
@@ -10,6 +12,9 @@ const Home = () => {
             <Header></Header>  
             <Banner></Banner>
             <Skills></Skills>
+            <RecentWorks></RecentWorks>
+            <ContactSection></ContactSection>
+            
         </>
     );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Banner.css';
-import person from '../../img/person.png';
+import person from '../../../img/person.png';
 
 const Banner = () => {
     return (
