@@ -5,8 +5,10 @@ import teamTracker from '../../../img/recentWorks/team-tracker.png';
 import transportFare from '../../../img/recentWorks/transport-fare.png';
 import tripAdvisor from '../../../img/recentWorks/trip-advisor.png';
 import volunteer from '../../../img/recentWorks/volunteer-network.png';
+import bookShop from '../../../img/react/volunteer-network.png';
+import burj from '../../../img/react/burj.png';
 
-const recentWorks = [
+const reactProjects = [
     {
         title: "Rest Countries",
         img: restCountries,
@@ -21,7 +23,7 @@ const recentWorks = [
         live: "https://ema-john-10238.web.app/",
         gitClient: "https://github.com/asiffmahmudd/ema-john-simple",
         gitServer: "https://github.com/asiffmahmudd/ema-john-server",
-        technologies: "React, HTML, CSS, Bootstrap, Firebase, MongoDB",
+        technologies: "React, Express, HTML, CSS, Bootstrap, Firebase, MongoDB",
         desc: "An e-commerce site where you can buy different gadgets and accessories"
     },
     {
@@ -46,7 +48,7 @@ const recentWorks = [
         live: "https://travel-agency-a2b4d.web.app/",
         gitClient: "https://github.com/asiffmahmudd/travel-agency",
         gitServer: "https://github.com/asiffmahmudd/travel-agency-server",
-        technologies: "React, HTML, CSS, Bootstrap, Firebase, MongoDB, stripe",
+        technologies: "React, Express, HTML, CSS, Bootstrap, Firebase, MongoDB, stripe",
         desc: "This site gives advice on trips planning and other stuffs. You can book an appointment for a particular service and see your bookings on the user panel"
     },
     {
@@ -55,9 +57,27 @@ const recentWorks = [
         live: "https://volunteer-network-67cb1.web.app/",
         gitClient: "https://github.com/asiffmahmudd/volunteer-network",
         gitServer: "https://github.com/asiffmahmudd/volunteer-network-server",
-        technologies: "React, HTML, CSS, Bootstrap, Firebase, MongoDB",
+        technologies: "React, Express, HTML, CSS, Bootstrap, Firebase, MongoDB",
         desc: "A site where you can register for different volunteer activities"
+    },
+    {
+        title: "Book Shop",
+        img: bookShop,
+        live: "https://book-shop-1e18e.web.app/",
+        gitClient: "https://github.com/asiffmahmudd/book-shop",
+        gitServer: "https://github.com/asiffmahmudd/book-shop-server",
+        technologies: "React, Express, HTML, CSS, Bootstrap, Firebase, MongoDB",
+        desc: "A site to search and buy books"
+    },
+    {
+        title: "Burj Al Arab",
+        img: burj,
+        live: "https://burj-al-arab-4e76e.web.app/",
+        gitClient: "https://github.com/asiffmahmudd/burj-al-arab",
+        gitServer: "https://github.com/asiffmahmudd/burj-al-arab-server",
+        technologies: "React, Express, HTML, CSS, Bootstrap, Firebase, MongoDB",
+        desc: "A site to book hotels"
     }
 ]
 
-export default recentWorks;
+export default reactProjects;

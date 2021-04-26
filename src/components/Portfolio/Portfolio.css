@@ -1,0 +1,18 @@
+.portfolio .nav-tabs .nav-link.active, .portfolio .nav-tabs .nav-item.show .nav-link {
+    color: goldenrod !important;
+    background-color: transparent !important;
+    border-bottom: 3px solid goldenrod;
+}
+
+.portfolio .nav-tabs .nav-link{
+    background: transparent !important;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    margin-bottom: -3px;
+}
+
+.portfolio .nav-tabs{
+    border-bottom: 3px solid white;
+}

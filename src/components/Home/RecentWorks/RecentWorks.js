@@ -1,7 +1,8 @@
 import React from 'react';
 import './RecentWorks.css';
 import recentWorkInfo from './recentWorkInfo';
-import RecentWorksItem from './RecentWorksItem';
+import ProjectItem from '../../Shared/ProjectItem/ProjectItem';
+import { Link } from 'react-router-dom';
 
 const RecentWorks = () => {
     return (
@@ -15,9 +16,13 @@ const RecentWorks = () => {
                 </div>
                 <div className="row mt-5">
                     {
-                        recentWorkInfo.map(info => <RecentWorksItem info={info}></RecentWorksItem>)
+                        recentWorkInfo.map(info => <ProjectItem info={info}></ProjectItem>)
                     }
                 </div>
+                <div className="mt-4 text-center">
+                    <Link to="/portfolio" className="cstm-btn">See All</Link>
+                </div>
+                
             </div>
         </section>
     );

@@ -6,7 +6,7 @@ import {faFacebook, faGoogle, faSkype} from '@fortawesome/free-brands-svg-icons'
 
 const Header = () => {
     return (
-        <header className="bg-dark pt-5">
+        <header className="bg-dark pt-5 pb-4">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div className="nav-brand-container text-center">
