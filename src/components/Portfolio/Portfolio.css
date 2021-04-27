@@ -43,3 +43,9 @@
     0% { opacity: 0; transform: translateX(-100%); }
     100% { opacity: 1; transform: translateZ(0); }
 }
+
+@media(max-width: 591px){
+    .portfolio .nav-tabs{
+        border-bottom: none;
+    }    
+}
