@@ -1,6 +1,8 @@
 
 header .navbar-brand{
     margin: 0;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
 }
 
 header .navbar .nav-item a{

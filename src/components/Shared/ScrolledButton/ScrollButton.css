@@ -1,0 +1,21 @@
+.scroll-btn{
+    position: fixed;
+    top: 85%;
+    right: 5%;
+    padding: 8px 12px;
+    border: 3px solid goldenrod;
+    cursor: pointer;
+    transition: 0.5s ease-in-out !important;
+}
+
+.scroll-btn:hover{
+    background: goldenrod;
+}
+
+.scroll-btn:hover svg{
+    transition: 0.5s ease-in-out !important;
+}
+
+.scroll-btn:hover svg{
+    color: black;
+}

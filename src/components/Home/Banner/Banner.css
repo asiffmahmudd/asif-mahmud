@@ -57,3 +57,7 @@
         display: block;
     }
 }
+
+.banner-connections a {
+    font-size: 15px;
+}

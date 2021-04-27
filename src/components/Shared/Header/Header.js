@@ -6,9 +6,9 @@ import {faFacebook, faGoogle, faSkype} from '@fortawesome/free-brands-svg-icons'
 
 const Header = () => {
     return (
-        <header className="bg-dark pt-5 pb-4">
+        <header className="bg-cstm pt-5 pb-4">
             <div className="container">
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-cstm">
                     <div className="nav-brand-container text-center">
                         <Link className="navbar-brand cstm-underline text-center" to="/">Asif</Link>
                     </div>
@@ -28,7 +28,7 @@ const Header = () => {
                                 <a className="nav-link cstm-underline" href="/About">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link cstm-underline" href="#contact">Contact</a>
+                                <a className="nav-link cstm-underline" href="/#contact">Contact</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link cstm-underline" rel="noreferrer" href="mailto:asifmahmud3472@gmail.com"><FontAwesomeIcon icon={faGoogle} /></a>

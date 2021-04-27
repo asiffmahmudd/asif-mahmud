@@ -11,7 +11,7 @@ const Portfolio = () => {
     return (
         <>
             <Header></Header>
-            <section className="portfolio bg-dark pt-5 pb-5">
+            <section className="portfolio bg-cstm pt-5 pb-5">
                 <div className="container">
                     <h5 className="text-center text-goldenrod">My Projects</h5>
                     <h2 className="text-white text-center mb-3">Projects I have worked on throughout my academic and professional life</h2>

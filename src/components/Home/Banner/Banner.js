@@ -4,7 +4,7 @@ import person from '../../../img/person.png';
 
 const Banner = () => {
     return (
-        <section className="banner bg-dark">
+        <section className="banner bg-cstm">
             <div className="container">
                 <div className="row pl-3 pt-5 d-flex align-items-center">
                     <div className="col-lg-2 mt-4 name-intro">
@@ -34,7 +34,9 @@ const Banner = () => {
                     <div className="col-lg-4 mt-4">
                         <p className="text-goldenrod font-weight-bold">Introduction</p>
                         <h1 className="text-white">Full Stack Web Developer</h1>
-                        <p className="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <p className="text-white">A technology enthusiast, looking for a position where I can apply my theoretical and practical 
+project knowledge along with the experience gained from my problem solving skill and 
+cooperative attitude.</p>
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@ const ProjectItem = ({info}) => {
     return (
         <div className="col-md-4 mt-4 project-item">
             <div className="card border-0 shadow-lg">
-                <div className="img-container p-3 bg-dark">
+                <div className="img-container ">
                     <img className="card-img-top" src={info.img} alt="" />
                     <div className="overlay">
                         <h5 className="text-center mt-3 text-goldenrod">{info.title}</h5>
@@ -26,7 +26,7 @@ const ProjectItem = ({info}) => {
                             }
                             {
                                 info.gitServer &&
-                                <a className="list-inline-item" href={info.gitServer} target="_blank" rel="noreferrer" data-tooltip="Github Server Side">
+                                <a className="list-inline-item" href={info.gitServer} target="_blank" rel="noreferrer" data-tooltip="Server Repo">
                                     <FontAwesomeIcon icon={faGitAlt} color="white" size="lg"/>
                                 </a>
                             }
@@ -34,7 +34,7 @@ const ProjectItem = ({info}) => {
                         </ul>
                     </div>
                 </div>
-                {/* <div className="card-body bg-dark">
+                {/* <div className="card-body bg-cstm">
                     <h5 className="card-title text-white text-center">{info.title}</h5>
                 </div> */}
             </div>
