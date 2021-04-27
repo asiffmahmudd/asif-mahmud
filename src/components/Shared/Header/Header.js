@@ -25,15 +25,15 @@ const Header = () => {
                                 <Link className="nav-link cstm-underline" to="/portfolio">Portfolio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link cstm-underline" to="/about">About</Link>
+                                <a className="nav-link cstm-underline" href="/About">About</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link cstm-underline" to="/contact">Contact</Link>
+                                <a className="nav-link cstm-underline" href="#contact">Contact</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link cstm-underline" href="mailto:asifmahmud3472@gmail.com"><FontAwesomeIcon icon={faGoogle} /></a>
-                                <Link className="nav-link cstm-underline" to=""><FontAwesomeIcon icon={faSkype} /></Link>
-                                <Link className="nav-link cstm-underline" to=""><FontAwesomeIcon icon={faFacebook} /></Link>
+                                <a className="nav-link cstm-underline" rel="noreferrer" href="mailto:asifmahmud3472@gmail.com"><FontAwesomeIcon icon={faGoogle} /></a>
+                                <a className="nav-link cstm-underline" href="skype:live:asifmahmud3472?chat"><FontAwesomeIcon icon={faSkype} /></a>
+                                <a className="nav-link cstm-underline" target="_blank" rel="noreferrer" href="https://www.facebook.com/asiffmahmudd/"><FontAwesomeIcon icon={faFacebook} /></a>
                             </li>
                         </ul>
                     </div>

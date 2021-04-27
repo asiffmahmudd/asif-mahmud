@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Banner.css';
 import person from '../../../img/person.png';
 
@@ -15,18 +14,18 @@ const Banner = () => {
                         </div>
                         <div className="banner-connections-container mt-4 font-weight-bold">
                             <div className="banner-connections">
-                                <Link to="" className="cstm-underline text-white">LinkedIn</Link>
+                                <a href="https://www.linkedin.com/in/asiffmahmudd/" target="_blank" rel="noreferrer" className="cstm-underline text-white">LinkedIn</a>
                                 <span className="right-border"></span>
-                                <Link to="" className="cstm-underline text-white">Github</Link>
+                                <a href="https://github.com/asiffmahmudd/" target="_blank" rel="noreferrer"  className="cstm-underline text-white">Github</a>
                             </div>
                             <div className="banner-connections">
-                                <Link to="" className="cstm-underline text-white">Gmail</Link>
+                                <a href="mailto:asifmahmud3472@gmail.com" className="cstm-underline text-white">Gmail</a>
                                 <span className="right-border"></span>
-                                <Link to="" className="cstm-underline text-white">Facebook</Link>
+                                <a href="https://www.facebook.com/asiffmahmudd/" className="cstm-underline text-white" target="_blank" rel="noreferrer">Facebook</a>
                             </div>
                         </div>
                         <div>
-                            <a href="/" className="cstm-btn">Contact Me</a>
+                            <a href="#contact" className="cstm-btn">Contact Me</a>
                         </div>
                     </div>
                     <div className="col-lg-6 mt-4 text-center">

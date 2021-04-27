@@ -9,7 +9,7 @@ import onlinebiz from '../../../img/Wordpress/onlinebiz.png';
 import peskero from '../../../img/Wordpress/peskero.png';
 import webinar from '../../../img/Wordpress/webinar.png';
 
-const responsiveWebProjects = [
+const wordpressProjects = [
     {
         title: "Business Agency",
         img: agency,
@@ -82,4 +82,4 @@ const responsiveWebProjects = [
     },
 ]
 
-export default responsiveWebProjects;
+export default wordpressProjects;

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGitAlt, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faShare } from '@fortawesome/free-solid-svg-icons';
 
-const RecentWorksItem = ({info}) => {
+const ProjectItem = ({info}) => {
     return (
         <div className="col-md-4 mt-4 project-item">
             <div className="card border-0 shadow-lg">
@@ -18,9 +18,12 @@ const RecentWorksItem = ({info}) => {
                             <a className="list-inline-item" href={info.live} target="_blank" rel="noreferrer" data-tooltip="Live">
                                 <FontAwesomeIcon icon={faShare} color="white" size="lg"/>
                             </a>
-                            <a className="list-inline-item" href={info.gitClient} target="_blank" rel="noreferrer" data-tooltip="Github Repo" >
-                                <FontAwesomeIcon icon={faGithub} color="white" size="lg"/>
-                            </a>
+                            {
+                                info.gitClient &&
+                                <a className="list-inline-item" href={info.gitClient} target="_blank" rel="noreferrer" data-tooltip="Github Repo" >
+                                    <FontAwesomeIcon icon={faGithub} color="white" size="lg"/>
+                                </a>
+                            }
                             {
                                 info.gitServer &&
                                 <a className="list-inline-item" href={info.gitServer} target="_blank" rel="noreferrer" data-tooltip="Github Server Side">
@@ -39,4 +42,4 @@ const RecentWorksItem = ({info}) => {
     );
 };
 
-export default RecentWorksItem;
+export default ProjectItem;

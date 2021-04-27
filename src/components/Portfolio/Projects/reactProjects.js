@@ -5,8 +5,8 @@ import teamTracker from '../../../img/recentWorks/team-tracker.png';
 import transportFare from '../../../img/recentWorks/transport-fare.png';
 import tripAdvisor from '../../../img/recentWorks/trip-advisor.png';
 import volunteer from '../../../img/recentWorks/volunteer-network.png';
-import bookShop from '../../../img/react/volunteer-network.png';
-import burj from '../../../img/react/burj.png';
+import bookShop from '../../../img/React/bookShop.png';
+import burj from '../../../img/React/burj.png';
 
 const reactProjects = [
     {

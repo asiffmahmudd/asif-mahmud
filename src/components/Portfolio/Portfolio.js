@@ -1,6 +1,11 @@
 import React from 'react';
 import Header from '../Shared/Header/Header';
+import ProjectItem from '../Shared/ProjectItem/ProjectItem';
 import './Portfolio.css';
+import javascriptProjects from './Projects/javascriptProjects';
+import reactProjects from './Projects/reactProjects';
+import responsiveWeb from './Projects/responsiveWebProjects';
+import wordpress from './Projects/wordpress';
 
 const Portfolio = () => {
     return (
@@ -24,27 +29,52 @@ const Portfolio = () => {
                                 <button className="nav-link" id="react-tab" href="#react" data-toggle="tab"  type="button" role="tab" aria-controls="react" aria-selected="false">React</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link" id="contact-tab" href="#contact"  data-toggle="tab" type="button" role="tab" aria-controls="contact" aria-selected="false">Responsive Web</button>
+                                <button className="nav-link" id="javascript-tab" href="#javascript"  data-toggle="tab" type="button" role="tab" aria-controls="javascript" aria-selected="false">Javascript/Express</button>
+                            </li>
+                            <li className="nav-item" role="presentation">
+                                <button className="nav-link" id="wordpress-tab" href="#wordpress"  data-toggle="tab" type="button" role="tab" aria-controls="wordpress" aria-selected="false">Wordpress</button>
                             </li>
                         </ul>
                     </div>
 
                     <div className="tab-content" id="myTabContent">
                         <div className="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
-                        his event fires on tab show, but before the new tab has been shown. Use event.target and event.relatedTarget to target the active tab and the previous active tab (if available) respectively.
+                            <div className="row">
+                            {
+                                reactProjects.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
+                            }
+                            {
+                                responsiveWeb.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
+                            }
+                            {
+                                wordpress.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
+                            }
+                            {
+                                javascriptProjects.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
+                            }
+                            </div>
                         </div>
                         <div className="tab-pane fade" id="react" role="tabpanel" aria-labelledby="react-tab">
-                        Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. Returns to the caller before the tab pane has actually been shown (i.e. before the shown.bs.tab event occurs).
+                            <div className="row">
+                            {
+                                reactProjects.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
+                            }
+                            </div>
                         </div>
-                        <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        You can activate a tab or pill navigation without writing any JavaScript by simply specifying data-bs-toggle="tab" or data-bs-toggle="pill" on an element. Use these data attributes on .nav-tabs or .nav-pills.
+                        <div className="tab-pane fade" id="javascript" role="tabpanel" aria-labelledby="javascript-tab">
+                            <div className="row">
+                            {
+                                javascriptProjects.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
+                            }
+                            </div>
                         </div>
-                    </div>
-
-                    <div className="row mt-5">
-                        {
-                            
-                        }
+                        <div className="tab-pane fade" id="wordpress" role="tabpanel" aria-labelledby="wordpress-tab">
+                            <div className="row">
+                            {
+                                wordpress.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
+                            }
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

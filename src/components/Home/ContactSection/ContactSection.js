@@ -5,7 +5,7 @@ import ContactItem from './ContactItem';
 
 const ContactSection = () => {
     return (
-        <section className="contact-section bg-dark section-padding">
+        <section className="contact-section section-padding" id="contact">
             <div className="container">
                 <h5 className="text-center text-goldenrod">Contact me</h5>
                 <h2 className="text-white text-center mb-3">Ways To Contact Me</h2>
@@ -15,7 +15,7 @@ const ContactSection = () => {
                 </div>
                 <div className="row justify-content-center">
                     {
-                        contactItems.map(contactItem => <ContactItem contactItem={contactItem}></ContactItem>)
+                        contactItems.map((contactItem,index) => <ContactItem key={index} contactItem={contactItem}></ContactItem>)
                     }
                 </div>
             </div>

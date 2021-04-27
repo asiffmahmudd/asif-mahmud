@@ -17,7 +17,7 @@ const Skills = () => {
                 </div>
                 <div className="row skill-items-container mt-4 d-flex justify-content-center">
                     {
-                        SkillInfos.map(skillinfo => <SkillsItem skillinfo={skillinfo}></SkillsItem>)
+                        SkillInfos.map((skillinfo,index) => <SkillsItem key={index} skillinfo={skillinfo}></SkillsItem>)
                     }
                 </div>
             </div>

@@ -10,6 +10,8 @@ import rock from '../../../img/Javascript-express/rock.png';
 import hungry from '../../../img/Javascript-express/hungry.png';
 import country from '../../../img/Javascript-express/country.png';
 import weather from '../../../img/Javascript-express/weather.png';
+import pin from '../../../img/Javascript-express/pin.png';
+import cruise from '../../../img/Javascript-express/cruise.png';
 
 const javascriptProjects = [
     {
@@ -116,14 +118,14 @@ const javascriptProjects = [
         technologies: "HTML, CSS, Bootstrap, JavaScript",
         desc: "Book a ticket for the Cruise Queen ship"
     },
-    {
-        title: "Shopping Cart",
-        img: cart,
-        live: "https://asiffmahmudd.github.io/cruise-queen/",
-        gitClient: "https://github.com/asiffmahmudd/cruise-queen",
-        technologies: "HTML, CSS, Bootstrap, JavaScript",
-        desc: "Book a ticket for the Cruise Queen ship"
-    },
+    // {
+    //     title: "Shopping Cart",
+    //     img: cart,
+    //     live: "https://asiffmahmudd.github.io/cruise-queen/",
+    //     gitClient: "https://github.com/asiffmahmudd/cruise-queen",
+    //     technologies: "HTML, CSS, Bootstrap, JavaScript",
+    //     desc: "Book a ticket for the Cruise Queen ship"
+    // },
 ]
 
 export default javascriptProjects;

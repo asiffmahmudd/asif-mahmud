@@ -16,3 +16,30 @@
 .portfolio .nav-tabs{
     border-bottom: 3px solid white;
 }
+
+.tab-pane.active .project-item:nth-child(even){
+    animation: even-slide 1s ease-in-out;
+}
+
+@keyframes even-slide {
+    0% { opacity: 0; transform: translateY(100%); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.tab-pane.active .project-item:nth-child(odd){
+    animation: odd-slide 1s ease-in-out;
+}
+
+@keyframes odd-slide {
+    0% { opacity: 0; transform: translateX(100%); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+.tab-pane.active .project-item:nth-child(3n+0){
+    animation: test-slide 1s ease-in-out;
+}
+
+@keyframes test-slide {
+    0% { opacity: 0; transform: translateX(-100%); }
+    100% { opacity: 1; transform: translateZ(0); }
+}

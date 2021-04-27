@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const RecentWorks = () => {
     return (
-        <section className="recent-works section-padding">
+        <section className="recent-works section-padding bg-dark">
             <div className="container">
                 <h5 className="text-center text-goldenrod">Recent Works</h5>
                 <h2 className="text-white text-center mb-3">Projects I have worked on Recently</h2>
@@ -16,7 +16,7 @@ const RecentWorks = () => {
                 </div>
                 <div className="row mt-5">
                     {
-                        recentWorkInfo.map(info => <ProjectItem info={info}></ProjectItem>)
+                        recentWorkInfo.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
                     }
                 </div>
                 <div className="mt-4 text-center">
