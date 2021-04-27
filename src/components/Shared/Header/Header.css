@@ -33,6 +33,10 @@ header .nav-item:last-child .nav-link{
 
 @media(max-width: 991px){
     header .navbar .nav-item{
-        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    header .navbar .nav-link{
+        width: fit-content;
     }
 }

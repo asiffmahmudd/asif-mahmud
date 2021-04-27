@@ -28,10 +28,10 @@ const Banner = () => {
                             <a href="#contact" className="cstm-btn">Contact Me</a>
                         </div>
                     </div>
-                    <div className="col-lg-6 mt-4 text-center">
+                    <div className="col-lg-6 mt-4 banner-img text-center">
                         <img src={person} className="img-fluid" alt=""/>
                     </div>
-                    <div className="col-lg-4 mt-4">
+                    <div className="col-lg-4 mt-4 banner-intro">
                         <p className="text-goldenrod font-weight-bold">Introduction</p>
                         <h1 className="text-white">Full Stack Web Developer</h1>
                         <p className="text-white">A technology enthusiast, looking for a position where I can apply my theoretical and practical 

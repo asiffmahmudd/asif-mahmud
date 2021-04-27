@@ -47,6 +47,14 @@
         display: flex;
         justify-content: center;
     }
+    .banner .row .col-lg-6.banner-img{
+        order: 3;
+    }
+
+    .banner .banner-intro{
+        margin-top: 4rem !important;
+        text-align: center;
+    }
 }
 
 @media(min-width: 992px) and (max-width:1199px){
