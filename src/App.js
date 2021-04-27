@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import ScrollButton from './components/Shared/ScrolledButton/ScrolledButton';
 import { Fragment } from 'react';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/portfolio">
           <Portfolio></Portfolio>
+        </Route>
+        <Route path="/about">
+          <About></About>
         </Route>
         <Route exact path="/">
           <Home></Home>
