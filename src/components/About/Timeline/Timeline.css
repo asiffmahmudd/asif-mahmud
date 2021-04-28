@@ -1,0 +1,12 @@
+.vertical-timeline-element-date{
+    color: white;
+}
+
+.vertical-timeline::before, .vertical-timeline-element:after{
+    background: goldenrod;
+}
+
+.vertical-timeline-element-icon{
+    -webkit-box-shadow: 0 0 0 4px goldenrod, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 0 4px goldenrod, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+}

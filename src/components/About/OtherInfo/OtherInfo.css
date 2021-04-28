@@ -1,0 +1,34 @@
+.other-info{
+    background-color: #2e2e35;
+}
+
+.other-info .card-header {
+    background-color: #242424;
+    border-bottom: 1px solid goldenrod;
+}
+
+.other-info #accordion .btn-link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.other-info .card-body{
+    background: #2e2e2e;
+    color: white;
+}
+
+.other-info #accordion .btn-link:focus{
+    box-shadow: none;
+}
+
+.other-info #accordion .btn-link:hover{
+    color: white;
+}
+
+.other-info .card{
+    border: none;
+}
+
+.other-info #online-courses ul li a{
+    color: lightcyan;
+}
