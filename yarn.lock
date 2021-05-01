@@ -4217,6 +4217,11 @@
     "address" "^1.0.1"
     "debug" "^2.6.0"
 
+"devicon-react-svg@^0.2.3":
+  "integrity" "sha512-sy81d4yTglUNextq3Q4sUI1LB+gUrgfRzyNG3H3Skg36TQZ/WFlWwXFhgJ+53kZ9vU0kg33tgjHKhI8LX3DDZw=="
+  "resolved" "https://registry.npmjs.org/devicon-react-svg/-/devicon-react-svg-0.2.3.tgz"
+  "version" "0.2.3"
+
 "diff-sequences@^26.6.2":
   "integrity" "sha512-Mv/TDa3nZ9sbc5soK+OoA74BsS3mL37yixCvUAQkiuA4Wz6YtwP/K47n2rv2ovzHZvoiQeA5FTQOschKkEwB0Q=="
   "resolved" "https://registry.npmjs.org/diff-sequences/-/diff-sequences-26.6.2.tgz"

@@ -1,6 +1,10 @@
 import React from 'react';
 import './Banner.css';
 import person from '../../../img/person.png';
+import cv from '../../../CV/CV_Asif_Mahmud.pdf';
+import {faDownload} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Banner = () => {
     return (
@@ -25,7 +29,7 @@ const Banner = () => {
                             </div>
                         </div>
                         <div>
-                            <a href="#contact" className="cstm-btn">Contact Me</a>
+                            <a href={cv} target="_blank" rel="noreferrer" className="cstm-btn cv-btn"><FontAwesomeIcon icon={faDownload} /> Download CV</a>
                         </div>
                     </div>
                     <div className="col-lg-6 mt-4 banner-img text-center">

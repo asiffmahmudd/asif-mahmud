@@ -1,5 +1,4 @@
-import { faNode, faJs, faGit, faJava, faPython, faBootstrap, faReact, faHtml5, faCss3, faWordpress, faPhp } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faDatabase, faTasks } from '@fortawesome/free-solid-svg-icons';
+
 const skillItems = [
     {
         icon: <svg viewBox="0 0 128 128">

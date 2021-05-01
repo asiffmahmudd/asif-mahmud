@@ -1,9 +1,7 @@
 import React from 'react';
 import './Skills.css';
-import SkillInfos from './SkillInfos';
+import SkillInfos from './SkillInfosSVG';
 import SkillsItem from './SkillsItem';
-
-
 
 const Skills = () => {
     return (
