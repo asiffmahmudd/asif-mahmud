@@ -6,6 +6,11 @@
     width: 40px;
 }
 
+.skill-items svg {
+    height: 100px;
+    fill: white;
+}
+
 @media (max-width: 425px){
     .col-xs-6{
         flex: 0 0 50% !important;
