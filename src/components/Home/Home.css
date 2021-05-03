@@ -1,0 +1,23 @@
+section:nth-child(even){
+    background: #2e2e35;
+}
+
+section:nth-child(odd){
+    background: #34343b;
+}
+
+.home .contact-item .item-container:hover{
+    background: #343a40 !important;
+}
+
+.home .contact-item .item-container:active{
+    background: #343a40 !important;
+}
+
+.home .contact-item .item-container:focus{
+    background: #343a40 !important;
+}
+
+.home .item-container{
+    background: #34343b;
+}

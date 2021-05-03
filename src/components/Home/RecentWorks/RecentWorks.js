@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const RecentWorks = () => {
     return (
-        <section className="recent-works section-padding bg-cstm">
+        <section className="recent-works section-padding" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
             <div className="container">
                 <h5 className="text-center text-goldenrod">Recent Works</h5>
                 <h2 className="text-white text-center mb-3">Projects I have worked on Recently</h2>

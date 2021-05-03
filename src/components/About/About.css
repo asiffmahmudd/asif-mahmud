@@ -1,7 +1,16 @@
-.about-intro{
-    background-color: #2e2e35;
+.about .contact-item .item-container:hover{
+    background: #343a40 !important;
 }
 
-.about .timeline{
-    background-color: #34343b;
+.about .contact-item .item-container:active{
+    background: #343a40 !important;
 }
+
+.about .contact-item .item-container:focus{
+    background: #343a40 !important;
+}
+
+.about .item-container{
+    background: #2e2e35;
+}
+

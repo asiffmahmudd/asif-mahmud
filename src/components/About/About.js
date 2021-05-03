@@ -9,7 +9,7 @@ import OtherInfo from './OtherInfo/OtherInfo';
 
 const About = () => {
     return (
-        <>
+        <div className="about">
         <Header></Header>
         <section className="about ">
             <div className="about-intro section-padding">
@@ -22,19 +22,19 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="timeline">
-                <VerticalTimeline>
-                    {
-                        timelineInfo.map((info,index) => <Timeline key={index} info={info}></Timeline>)
-                    }
-                </VerticalTimeline>
-            </div>
+        </section>
+        <section className="timeline">
+            <VerticalTimeline>
+                {
+                    timelineInfo.map((info,index) => <Timeline key={index} info={info}></Timeline>)
+                }
+            </VerticalTimeline>
         </section>
 
         <OtherInfo></OtherInfo>
 
         <ContactSection></ContactSection>
-        </>
+        </div>
     );
 };
 

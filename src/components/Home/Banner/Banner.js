@@ -1,18 +1,20 @@
 import React from 'react';
 import './Banner.css';
-import person from '../../../img/person.png';
+// import person from '../../../img/person.png';
 import cv from '../../../CV/CV_Asif_Mahmud.pdf';
 import {faDownload} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import ReactTypingEffect from 'react-typing-effect';
 
 
 const Banner = () => {
     return (
-        <section className="banner bg-cstm">
+        <section className="banner ">
             <div className="container">
-                <div className="row pl-3 pt-5 d-flex align-items-center">
-                    <div className="col-lg-2 mt-4 name-intro">
-                        <h1 className="text-white">Asif Mahmud<span className="text-goldenrod">.</span></h1>
+                <div className="row pl-3 pt-5 d-flex align-items-center pb-5">
+                    <div className="col-lg-2 mt-4 name-intro" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200">
+                        <h1 className="text-white">Asif <br/>Mahmud<span className="text-goldenrod">.</span></h1>
                         <div className="cstm-brdr-container">
                             <span className="cstm-brdr mt-4"></span>
                         </div>
@@ -32,11 +34,13 @@ const Banner = () => {
                             <a href={cv} target="_blank" rel="noreferrer" className="cstm-btn cv-btn"><FontAwesomeIcon icon={faDownload} /> Download CV</a>
                         </div>
                     </div>
-                    <div className="col-lg-6 mt-4 banner-img text-center">
+                    {/* <div className="col-lg-6 mt-4 banner-img text-center">
                         <img src={person} className="img-fluid" alt=""/>
-                    </div>
-                    <div className="col-lg-4 mt-4 banner-intro">
+                    </div> */}
+                    <div className="col-lg-4 offset-lg-6 mt-4 banner-intro " data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200">
                         <p className="text-goldenrod font-weight-bold">Introduction</p>
+                        
                         <h1 className="text-white">Full Stack Web Developer</h1>
                         <p className="text-white">A technology enthusiast, looking for a position where I can apply my theoretical and practical 
 project knowledge along with the experience gained from my problem solving skill and 

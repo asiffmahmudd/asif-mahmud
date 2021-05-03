@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactSection from '../Home/ContactSection/ContactSection';
 import Header from '../Shared/Header/Header';
 import ProjectItem from '../Shared/ProjectItem/ProjectItem';
 import './Portfolio.css';
@@ -9,7 +10,7 @@ import wordpress from './Projects/wordpress';
 
 const Portfolio = () => {
     return (
-        <>
+        <div className="portfolio">
             <Header></Header>
             <section className="portfolio bg-cstm pt-5 pb-5">
                 <div className="container">
@@ -88,7 +89,8 @@ const Portfolio = () => {
                     </div>
                 </div>
             </section>
-        </>
+            <ContactSection></ContactSection>
+        </div>
     );
 };
 

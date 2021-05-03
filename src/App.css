@@ -6,8 +6,8 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     color: goldenrod;
 }
 
-.bg-cstm{
-    background: #2e2e35;
+.bg-cstm, body{
+    background: #2e2e35 !important;
 }
 
 .cstm-underline{
@@ -45,4 +45,12 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 
 .section-padding{
     padding: 80px 0;
+}
+
+section:nth-child(odd){
+    background-color: #34343b;
+}
+
+section:nth-child(even){
+    background-color: #2e2e35;
 }

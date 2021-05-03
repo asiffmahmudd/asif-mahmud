@@ -6,7 +6,9 @@ import { faShare } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectItem = ({info}) => {
     return (
-        <div className="col-md-6 col-lg-4 mt-4 project-item">
+        <div className="col-md-6 col-lg-4 mt-4 project-item" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <div className="card rounded-0 border-0 shadow-lg">
                 <div className="img-container ">
                     <img className="card-img-top rounded-0" src={info.img} alt="" />

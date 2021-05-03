@@ -7,10 +7,17 @@ import {
 import Home from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import ScrollButton from './components/Shared/ScrolledButton/ScrolledButton';
-import { Fragment } from 'react';
+import { Fragment, useEffect } from 'react';
 import About from './components/About/About';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() =>{
+    Aos.init({});
+  }, [])
+
   return (
     <Fragment>
     <Router>

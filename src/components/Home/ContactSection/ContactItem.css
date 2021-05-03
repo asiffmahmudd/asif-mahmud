@@ -1,14 +1,3 @@
-.contact-item .item-container:hover{
-    background: #343a40 !important;
-}
-
-.contact-item .item-container:active{
-    background: #343a40 !important;
-}
-
-.contact-item .item-container:focus{
-    background: #343a40 !important;
-}
 
 .contact-item span{
     font-size: 18px;
