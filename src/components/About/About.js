@@ -13,7 +13,7 @@ const About = () => {
         <Header></Header>
         <section className="about ">
             <div className="about-intro section-padding">
-                <div className="container">
+                <div className="container" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
                     <h5 className="text-center text-goldenrod">About Me</h5>
                     <h2 className="text-white text-center mb-3">A little Highlight about myself</h2>
                     <p className="text-center text-white col-md-6 mx-auto mt-3">Get to know me better</p>

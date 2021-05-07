@@ -4,7 +4,7 @@ import './OtherInfo.css';
 const OtherInfo = () => {
     return (
         <section className="other-info p-5">
-            <div className="container">
+            <div className="container" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
                 <h5 className="text-center text-goldenrod">Other Infos</h5>
                 <h2 className="text-white text-center mb-3">More About me</h2>
                 <p className="text-center text-white col-md-6 mx-auto mt-3">Get to know me better</p>

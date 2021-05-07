@@ -3,7 +3,7 @@
 }
 
 .other-info .card-header {
-    background-color: #242424;
+    background-color: #34343b;
     border-bottom: 1px solid goldenrod;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .other-info .card-body{
-    background: #2e2e2e;
+    background: #2f2f36f2;
     color: white;
 }
 

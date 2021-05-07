@@ -7,11 +7,13 @@ const Skills = () => {
     return (
         <section className="skills section-padding">
             <div className="container">
-                <h5 className="text-center text-goldenrod">Skills</h5>
-                <h2 className="text-white text-center mb-3">What I Am Good At</h2>
-                <p className="text-center text-white col-md-6 mx-auto mt-3">These are the technologies I used on different projects. But I am also flexible to use other technologies and I can adapt pretty quickly</p>
-                <div className="cstm-border-container d-flex justify-content-center mb-5">
-                    <span className="cstm-brdr"></span>
+                <div data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
+                    <h5 className="text-center text-goldenrod">Skills</h5>
+                    <h2 className="text-white text-center mb-3">What I Am Good At</h2>
+                    <p className="text-center text-white col-md-6 mx-auto mt-3">These are the technologies I used on different projects. But I am also flexible to use other technologies and I can adapt pretty quickly</p>
+                    <div className="cstm-border-container d-flex justify-content-center mb-5">
+                        <span className="cstm-brdr"></span>
+                    </div>
                 </div>
                 <div className="row skill-items-container mt-4 d-flex justify-content-center">
                     {

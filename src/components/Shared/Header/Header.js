@@ -7,8 +7,7 @@ import {faFacebook, faGoogle, faSkype} from '@fortawesome/free-brands-svg-icons'
 
 const Header = () => {
     return (
-        <header className="bg-cstm pt-5 pb-4" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
-        data-aos-duration="1200">
+        <header className="bg-cstm pt-5 pb-4" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-dark bg-cstm">
                     <div className="nav-brand-container text-center">

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.css';
 // import person from '../../../img/person.png';
-import cv from '../../../CV/CV_Asif_Mahmud.pdf';
+import cv from '../../../CV/CV_Asif Mahmud.pdf';
 import {faDownload} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import ReactTypingEffect from 'react-typing-effect';
@@ -12,7 +12,7 @@ const Banner = () => {
         <section className="banner ">
             <div className="container">
                 <div className="row pl-3 pt-5 d-flex align-items-center pb-5">
-                    <div className="col-lg-2 mt-4 name-intro" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+                    <div className="col-lg-2 mt-4 name-intro" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
         data-aos-duration="1200">
                         <h1 className="text-white">Asif <br/>Mahmud<span className="text-goldenrod">.</span></h1>
                         <div className="cstm-brdr-container">
@@ -37,7 +37,7 @@ const Banner = () => {
                     {/* <div className="col-lg-6 mt-4 banner-img text-center">
                         <img src={person} className="img-fluid" alt=""/>
                     </div> */}
-                    <div className="col-lg-4 offset-lg-6 mt-4 banner-intro " data-aos="fade-left" data-aos-easing="ease-out-cubic"
+                    <div className="col-lg-4 offset-lg-6 mt-4 banner-intro " data-aos="zoom-in" data-aos-easing="ease-out-cubic"
         data-aos-duration="1200">
                         <p className="text-goldenrod font-weight-bold">Introduction</p>
                         

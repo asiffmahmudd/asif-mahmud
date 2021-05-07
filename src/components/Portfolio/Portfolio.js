@@ -13,7 +13,7 @@ const Portfolio = () => {
         <div className="portfolio">
             <Header></Header>
             <section className="portfolio bg-cstm pt-5 pb-5">
-                <div className="container">
+                <div className="container" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
                     <h5 className="text-center text-goldenrod">My Projects</h5>
                     <h2 className="text-white text-center mb-3">Projects I have worked on throughout my academic and professional life</h2>
                     <p className="text-center text-white col-md-6 mx-auto mt-3">It's a mixture of professional and self projects. Feel free to take a look at them</p>
