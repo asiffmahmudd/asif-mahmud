@@ -3,8 +3,18 @@
     border: none;
 }
 
-.blog-item .card-img{
-    height: 230px !important;
+.blog-item .card-img-top{
+    object-fit: cover;
+    width: 100%;
+    transition: .5s all ease;
+}
+
+.blog-item .card-img-container{
+    overflow: hidden;
+}
+
+.blog-item .card-img-top:hover{
+    transform: scale(1.8) !important;
 }
 
 .blog-item .card-body{
