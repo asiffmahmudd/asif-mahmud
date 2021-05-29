@@ -9,7 +9,7 @@ const BlogItem = ({blogItem}) => {
                 <div className="card-body" style={{height:"250px"}}>
                     <h5 className="card-title" style={{height:"20%"}}>{blogItem.title}</h5>
                     <p className="card-text">{blogItem.desc}</p>
-                    <a href={blogItem.link} className="card-link" target="_blank" rel="noreferrer">Read More ></a>
+                    <a href={blogItem.link} className="card-link" target="_blank" rel="noreferrer">Read More</a>
                 </div>
             </div>
         </div>
