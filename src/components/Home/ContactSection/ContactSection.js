@@ -5,8 +5,7 @@ import ContactItem from './ContactItem';
 
 const ContactSection = () => {
     return (
-        <section className="contact-section section-padding" id="contact" data-aos="fade-down" data-aos-easing="ease-out-cubic"
-        data-aos-duration="1200">
+        <section className="contact-section section-padding" id="contact">
             <div className="container">
                 <h5 className="text-center text-goldenrod">Contact me</h5>
                 <h2 className="text-white text-center mb-3">Ways To Contact Me</h2>

@@ -7,8 +7,18 @@ import tripAdvisor from '../../../img/recentWorks/trip-advisor.png';
 import volunteer from '../../../img/recentWorks/volunteer-network.png';
 import bookShop from '../../../img/React/bookShop.png';
 import burj from '../../../img/React/burj.png';
+import reduxBookshelf from '../../../img/recentWorks/redux-bookshelf.png';
 
 const reactProjects = [
+    {
+        title: "Redux Bookshelf",
+        img: reduxBookshelf,
+        live: "https://redux-bookshelf.web.app/",
+        gitClient: "https://github.com/asiffmahmudd/redux-book-shelf",
+        gitServer: "https://github.com/asiffmahmudd/redux-bookshelf-server",
+        technologies: "React, Redux, Express, NodeJs, MongoDB, Bootstrap, JSX, CSS, Firebase, Heroku",
+        desc: "A bookshelf management system. You can add different books on different lists depending on the status."
+    },
     {
         title: "Rest Countries",
         img: restCountries,

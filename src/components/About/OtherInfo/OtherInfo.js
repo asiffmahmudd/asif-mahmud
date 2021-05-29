@@ -52,6 +52,44 @@ const OtherInfo = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="card">
+                        <div className="card-header" id="other-projects-header">
+                        <h5 className="mb-0">
+                            <button className="btn btn-link cstm-underline" data-toggle="collapse" data-target="#other-projects" aria-expanded="true" aria-controls="other-projects">
+                            Other Projects
+                            </button>
+                        </h5>
+                        </div>
+
+                        <div id="other-projects" className="collapse" aria-labelledby="other-projects-header" data-parent="#accordion">
+                        <div className="card-body">
+                            <ul>
+                                <li>
+                                    <h5>Kothay ki pabo</h5>
+                                    <h6>Features:</h6>
+                                    <ul>
+                                        <li>A one stop platform for products from all online vendors</li>
+                                        <li>Search for products</li>
+                                        <li>Compare prices</li> 
+                                        <li>Technology: Pyhton, Django, HTML, CSS, Bootstrap, Javascript, Sqlite</li>   
+                                    </ul>    
+                                    <h6><a href="https://github.com/asiffmahmudd/Final-Year-Project" target="_blank" rel="noreferrer" ><i>Github Repo</i></a></h6>
+                                </li>
+                                <li>
+                                    <h5>Hospital Management</h5>
+                                    <h6>Features:</h6>
+                                    <ul>
+                                        <li>Add patient</li>
+                                        <li>Delete Patient</li>
+                                        <li>Search for patient</li>    
+                                        <li>Technology: Java, JavaFX, File System</li>
+                                    </ul>  
+                                    <h6><a href="https://github.com/asiffmahmudd/Hospital-Management" target="_blank" rel="noreferrer" ><i>Github Repo</i></a></h6>  
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

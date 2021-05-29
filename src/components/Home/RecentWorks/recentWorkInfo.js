@@ -1,19 +1,19 @@
-
+import reduxBookshelf from '../../../img/recentWorks/redux-bookshelf.png'
 import restCountries from '../../../img/recentWorks/countries.JPG';
 import emaJohn from '../../../img/recentWorks/ema-john.JPG';
-import teamTracker from '../../../img/recentWorks/team-tracker.png';
 import transportFare from '../../../img/recentWorks/transport-fare.png';
 import tripAdvisor from '../../../img/recentWorks/trip-advisor.png';
 import volunteer from '../../../img/recentWorks/volunteer-network.png';
 
 const recentWorks = [
     {
-        title: "Rest Countries",
-        img: restCountries,
-        live: "https://boring-aryabhata-445861.netlify.app/",
-        gitClient: "https://github.com/asiffmahmudd/rest-countries",
-        technologies: "Rest Countries API, React, HTML, CSS, Bootstrap",
-        desc: "You can search for different countries and see their infos"
+        title: "Redux Bookshelf",
+        img: reduxBookshelf,
+        live: "https://redux-bookshelf.web.app/",
+        gitClient: "https://github.com/asiffmahmudd/redux-book-shelf",
+        gitServer: "https://github.com/asiffmahmudd/redux-bookshelf-server",
+        technologies: "React, Redux, Express, NodeJs, MongoDB, Bootstrap, JSX, CSS, Firebase, Heroku",
+        desc: "A bookshelf management system. You can add different books on different lists depending on the status."
     },
     {
         title: "Ema-John",
@@ -25,12 +25,12 @@ const recentWorks = [
         desc: "An e-commerce site where you can buy different gadgets and accessories"
     },
     {
-        title: "Team Tracker",
-        img: teamTracker,
-        live: "https://quirky-franklin-067139.netlify.app/",
-        gitClient: "https://github.com/asiffmahmudd/club-info",
-        technologies: "React, HTML, CSS, Bootstrap",
-        desc: "You can find different football clubs and their info in here"
+        title: "Rest Countries",
+        img: restCountries,
+        live: "https://boring-aryabhata-445861.netlify.app/",
+        gitClient: "https://github.com/asiffmahmudd/rest-countries",
+        technologies: "Rest Countries API, React, HTML, CSS, Bootstrap",
+        desc: "You can search for different countries and see their infos"
     },
     {
         title: "Transport Fare",

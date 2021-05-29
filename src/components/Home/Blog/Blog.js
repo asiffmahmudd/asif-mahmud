@@ -1,5 +1,7 @@
 import React from 'react';
 import './Blog.css';
+import BlogItem from './BlogItem';
+import { blogItemInfo } from './blogItemInfo';
 
 const Blog = () => {
 
@@ -14,7 +16,11 @@ const Blog = () => {
                     <span className="cstm-brdr"></span>
                 </div>
                 <div className="row justify-content-center">
-                    <h1 className="text-white">Coming soon</h1>
+                    <div className="card-deck">
+                        {
+                            blogItemInfo.map(item => <BlogItem blogItem={item}></BlogItem>)
+                        }
+                    </div>
                 </div>
             </div>
         </section>

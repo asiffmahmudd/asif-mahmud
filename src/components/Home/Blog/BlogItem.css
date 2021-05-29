@@ -1,0 +1,24 @@
+.blog-item .card{
+    width:18rem !important;
+    border: none;
+}
+
+.blog-item .card-img{
+    height: 230px !important;
+}
+
+.blog-item .card-body{
+    height: 250px !important;
+    background-color: #2e2e35;
+    color: white;
+}
+
+.blog-item .card-title{
+    height: 20% !important;
+    color: goldenrod;
+}
+
+.blog-item .card-link{
+    font-weight: 600;
+    color: goldenrod;
+}
