@@ -8,8 +8,18 @@ import volunteer from '../../../img/recentWorks/volunteer-network.png';
 import bookShop from '../../../img/React/bookShop.png';
 import burj from '../../../img/React/burj.png';
 import reduxBookshelf from '../../../img/recentWorks/redux-bookshelf.png';
+import pickbazar from '../../../img/recentWorks/pickbazar.JPG'
 
 const reactProjects = [
+    {
+        title: "Pickbazar",
+        img: pickbazar,
+        live: "https://pickbazar-acec8.web.app/",
+        gitClient: "https://github.com/asiffmahmudd/pickbazar",
+        gitServer: "https://github.com/asiffmahmudd/pickbazar-server",
+        technologies: "React, Redux, Stripe, React-Router, React-hook-form, react-dropzone, Express, NodeJs, MongoDB, Bootstrap, JSX, CSS, Firebase, Heroku",
+        desc: "A complete E-commerce site"
+    },
     {
         title: "Redux Bookshelf",
         img: reduxBookshelf,

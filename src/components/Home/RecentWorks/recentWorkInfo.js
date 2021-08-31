@@ -3,9 +3,18 @@ import restCountries from '../../../img/recentWorks/countries.JPG';
 import emaJohn from '../../../img/recentWorks/ema-john.JPG';
 import transportFare from '../../../img/recentWorks/transport-fare.png';
 import tripAdvisor from '../../../img/recentWorks/trip-advisor.png';
-import volunteer from '../../../img/recentWorks/volunteer-network.png';
+import pickbazar from '../../../img/recentWorks/pickbazar.JPG'
 
 const recentWorks = [
+    {
+        title: "Pickbazar",
+        img: pickbazar,
+        live: "https://pickbazar-acec8.web.app/",
+        gitClient: "https://github.com/asiffmahmudd/pickbazar",
+        gitServer: "https://github.com/asiffmahmudd/pickbazar-server",
+        technologies: "React, Redux, Stripe, React-Router, React-hook-form, react-dropzone, Express, NodeJs, MongoDB, Bootstrap, JSX, CSS, Firebase, Heroku",
+        desc: "A complete E-commerce site"
+    },
     {
         title: "Redux Bookshelf",
         img: reduxBookshelf,
@@ -49,15 +58,7 @@ const recentWorks = [
         technologies: "React, HTML, CSS, Bootstrap, Firebase, MongoDB, stripe",
         desc: "This site gives advice on trips planning and other stuffs. You can book an appointment for a particular service and see your bookings on the user panel"
     },
-    {
-        title: "Volunteer Network",
-        img: volunteer,
-        live: "https://volunteer-network-67cb1.web.app/",
-        gitClient: "https://github.com/asiffmahmudd/volunteer-network",
-        gitServer: "https://github.com/asiffmahmudd/volunteer-network-server",
-        technologies: "React, HTML, CSS, Bootstrap, Firebase, MongoDB",
-        desc: "A site where you can register for different volunteer activities"
-    }
+    
 ]
 
 export default recentWorks;
