@@ -51,7 +51,7 @@ const Portfolio = () => {
                                 responsiveWeb.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
                             }
                             {
-                                wordpress.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
+                                // wordpress.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
                             }
                             {
                                 javascriptProjects.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
