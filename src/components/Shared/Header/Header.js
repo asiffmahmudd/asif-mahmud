@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faFacebook, faGoogle, faSkype} from '@fortawesome/free-brands-svg-icons';
+import {faFacebook, faGoogle, /*faSkype*/} from '@fortawesome/free-brands-svg-icons';
 
 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link cstm-underline" rel="noreferrer" href="mailto:asifmahmud3472@gmail.com"><FontAwesomeIcon icon={faGoogle} /></a>
-                                <a className="nav-link cstm-underline" href="skype:live:asifmahmud3472?chat"><FontAwesomeIcon icon={faSkype} /></a>
+                                {/* <a className="nav-link cstm-underline" href="skype:live:asifmahmud3472?chat"><FontAwesomeIcon icon={faSkype} /></a> */}
                                 <a className="nav-link cstm-underline" target="_blank" rel="noreferrer" href="https://www.facebook.com/asiffmahmudd/"><FontAwesomeIcon icon={faFacebook} /></a>
                             </li>
                         </ul>

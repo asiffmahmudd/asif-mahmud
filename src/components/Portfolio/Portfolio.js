@@ -6,7 +6,7 @@ import './Portfolio.css';
 import javascriptProjects from './Projects/javascriptProjects';
 import reactProjects from './Projects/reactProjects';
 import responsiveWeb from './Projects/responsiveWebProjects';
-import wordpress from './Projects/wordpress';
+// import wordpress from './Projects/wordpress';
 
 const Portfolio = () => {
     return (
@@ -35,9 +35,9 @@ const Portfolio = () => {
                             <li className="nav-item" role="presentation">
                                 <button className="nav-link" id="responsive-web-tab" href="#responsive-web"  data-toggle="tab" type="button" role="tab" aria-controls="responsive-web" aria-selected="false">Responsive Web</button>
                             </li>
-                            <li className="nav-item" role="presentation">
+                            {/* <li className="nav-item" role="presentation">
                                 <button className="nav-link" id="wordpress-tab" href="#wordpress"  data-toggle="tab" type="button" role="tab" aria-controls="wordpress" aria-selected="false">Wordpress</button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 
@@ -79,13 +79,13 @@ const Portfolio = () => {
                             }
                             </div>
                         </div>
-                        <div className="tab-pane fade" id="wordpress" role="tabpanel" aria-labelledby="wordpress-tab">
+                        {/* <div className="tab-pane fade" id="wordpress" role="tabpanel" aria-labelledby="wordpress-tab">
                             <div className="row">
                             {
                                 wordpress.map((info,index) => <ProjectItem key={index} info={info}></ProjectItem>)
                             }
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

@@ -1,4 +1,4 @@
-import { faSkype, faFacebook} from '@fortawesome/free-brands-svg-icons';
+import { /*faSkype,*/ faFacebook} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const contactInfos = [
@@ -9,19 +9,19 @@ const contactInfos = [
     },
     {
         icon: faPhone,
-        info: "+8801915838270",
-        action: "tel:+8801915838270"
+        info: "+14373391076",
+        action: "tel:+14373391076"
     },
     {
         icon: faFacebook,
         info: "Asif Mahmud",
         action: "https://www.facebook.com/asiffmahmudd/"
     },
-    {
-        icon: faSkype,
-        info: "live:asifmahmud3472",
-        action: "skype:live:asifmahmud3472?chat"
-    },
+    // {
+    //     icon: faSkype,
+    //     info: "live:asifmahmud3472",
+    //     action: "skype:live:asifmahmud3472?chat"
+    // },
 ]
 
 export default contactInfos;
