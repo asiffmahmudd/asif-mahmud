@@ -17,7 +17,7 @@ const javascriptProjects = [
     {
         title: "To Do List",
         img: todo,
-        live: "https://apricot-cake-19451.herokuapp.com/",
+        live: "https://todo-list-p25h.onrender.com/",
         gitClient: "https://github.com/asiffmahmudd/todolist",
         technologies: "Express, HTML, CSS, Bootstrap, JavaScript",
         desc: "Write down your daily tasks and cross them out when they are done"
@@ -49,7 +49,7 @@ const javascriptProjects = [
     {
         title: "Blog Website",
         img: blog,
-        live: "https://pumpkin-cake-70239.herokuapp.com/",
+        live: "https://blog-website-0ea2.onrender.com",
         gitClient: "https://github.com/asiffmahmudd/blog-website",
         technologies: "Express, HTML, CSS, Bootstrap",
         desc: "A blogging website"
