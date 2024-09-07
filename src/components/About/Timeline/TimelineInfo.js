@@ -2,7 +2,23 @@ import { faBriefcase, faGraduationCap  } from '@fortawesome/free-solid-svg-icons
 
 const timelineInfo = [
     {
-        title: "In-Store Service Agent",
+        title: "Associate Software Developer",
+        subtitle: "SOTI Inc",
+        para: "Mississauga, Ontario, Canada",
+        class: "work",
+        date:"Jan, 2024 - Present",
+        icon: faBriefcase
+    },
+    {
+        title: "Software Developer Intern",
+        subtitle: "SOTI Inc",
+        para: "Mississauga, Ontario, Canada",
+        class: "work",
+        date:"Jan, 2023 - Dec 2023",
+        icon: faBriefcase
+    },
+    {
+        title: "Computer Solutions Advisor",
         subtitle: "Best Buy",
         para: "Toronto, Canada",
         class: "work",
