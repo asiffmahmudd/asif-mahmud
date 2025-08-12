@@ -2,11 +2,19 @@ import { faBriefcase, faGraduationCap  } from '@fortawesome/free-solid-svg-icons
 
 const timelineInfo = [
     {
+        title: "Software Developer 1",
+        subtitle: "SOTI Inc",
+        para: "Mississauga, Ontario, Canada",
+        class: "work",
+        date:"August, 2025 - Present",
+        icon: faBriefcase
+    },
+    {
         title: "Associate Software Developer",
         subtitle: "SOTI Inc",
         para: "Mississauga, Ontario, Canada",
         class: "work",
-        date:"Jan, 2024 - Present",
+        date:"Jan, 2024 - Jul 2025",
         icon: faBriefcase
     },
     {
@@ -18,7 +26,7 @@ const timelineInfo = [
         icon: faBriefcase
     },
     {
-        title: "Computer Solutions Advisor",
+        title: "In-Store Service Agent",
         subtitle: "Best Buy",
         para: "Toronto, Canada",
         class: "work",
@@ -42,11 +50,11 @@ const timelineInfo = [
         icon: faBriefcase
     },
     {
-        title: "Trainee",
-        subtitle: "BJET Academy",
+        title: "Remote Software Developer",
+        subtitle: "Mono Business",
         para: "Dhaka, Bangladesh",
         class: "work",
-        date:"Jan, 2020 - July, 2020",
+        date:"Feb, 2020 - August, 2020",
         icon: faBriefcase
     },
     {
