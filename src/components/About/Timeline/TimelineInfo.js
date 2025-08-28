@@ -46,15 +46,7 @@ const timelineInfo = [
         subtitle: "Workspace Infotech Limited",
         para: "Dhaka, Bangladesh",
         class: "work",
-        date:"Sept, 2020 - March, 2021",
-        icon: faBriefcase
-    },
-    {
-        title: "Remote Software Developer",
-        subtitle: "Mono Business",
-        para: "Dhaka, Bangladesh",
-        class: "work",
-        date:"Feb, 2020 - August, 2020",
+        date:"Mar, 2020 - Mar, 2021",
         icon: faBriefcase
     },
     {
